@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 gem 'rails', '5.2.0'
-gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails'
 gem 'bootstrap-sass'
+gem 'sass-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
@@ -17,4 +17,5 @@ group :production do
     gem 'pg', '0.21.0'
     gem 'rails_12factor'
 end
-
+gem 'devise'
+gem 'devise-i18n'
